@@ -22,3 +22,5 @@ while True:
 
     result = llm_pipeline(prompt, max_new_tokens=100, do_sample=True)[0]["generated_text"]
     print("\n🧠 Antwort:\n", result.replace(prompt, "").strip())
+    
+    
